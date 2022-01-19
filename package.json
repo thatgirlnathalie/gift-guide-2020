@@ -1,0 +1,19 @@
+{
+  "name": "gift-guide-2020",
+  "version": "1.0.0",
+  "description": "BFL Holiday Gift Guide 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatgirlnathalie/gift-guide-2020.git"
+  },
+  "author": "Niña Nathalie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thatgirlnathalie/gift-guide-2020/issues"
+  },
+  "homepage": "https://github.com/thatgirlnathalie/gift-guide-2020#readme"
+}

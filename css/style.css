@@ -1,0 +1,484 @@
+@font-face {
+  font-family: "FuturaPT-Demi";
+  src: url("fonts/FuturaPTDemi.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT-Book";
+  src: url("fonts/FuturaPTBook.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  z-index: 101;
+}
+.gift-guide-2020 img {
+  width: 100%;
+  height: auto;
+}
+
+.gift-guide-2020 .container-fluid {
+  overflow: hidden !important;
+}
+
+.gift-guide-2020 .nn-container {
+  z-index: 2;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden !important;
+  padding: 0 10px;
+}
+
+.gift-guide-2020 p {
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+}
+
+.gift-guide-sec-title img {
+  width: 30%;
+}
+
+.gift-guide-sec-title-kids img,
+.gift-guide-sec-title-brands img {
+  width: 50%;
+}
+
+.gift-guide-sec-title-red img {
+  width: 25%;
+}
+
+.gift-guide-sec-title-red p {
+  color: #ba0001;
+  font-size: 20px;
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+}
+
+.gift-guide-sec-title p,
+.gift-guide-sec-title-kids p,
+.gift-guide-sec-title-brands p {
+  color: #fff;
+  font-size: 20px;
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+}
+
+.red-bg {
+  background-image: linear-gradient(to right, #ba0001, #cc0001);
+  padding: 40px 15px 50px;
+}
+
+a.gift-btn {
+  background: transparent;
+  color: transparent;
+  width: 15.4%;
+  height: 46.4%;
+  position: absolute;
+}
+
+a.gift-btn:hover .gift-hover-btn {
+  font-family: FuturaPT-Demi, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #f4f4f4;
+  color: #ba0001;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50%;
+}
+
+/* women */
+
+.gift-w-watch {
+  top: 4.2%;
+  right: 40.5%;
+}
+
+.gift-w-bags {
+  top: 4.2%;
+  right: 20.8%;
+}
+
+.gift-w-cosmetics {
+  top: 4.2%;
+  right: 1.1%;
+}
+
+.gift-w-perfumes {
+  top: 53%;
+  right: 40.5%;
+}
+
+.gift-w-lingerie {
+  top: 53%;
+  right: 20.8%;
+}
+
+.gift-w-shoes {
+  top: 53%;
+  right: 1.1%;
+}
+
+/* men */
+
+.gift-m-perfumes {
+  top: 4.2%;
+  left: 4.2%;
+}
+
+.gift-m-bags {
+  top: 4.2%;
+  left: 24%;
+}
+
+.gift-m-watches {
+  top: 4.2%;
+  left: 43.9%;
+}
+
+.gift-m-shoes {
+  top: 53.5%;
+  left: 4.2%;
+}
+
+.gift-m-socks {
+  top: 53.5%;
+  left: 24%;
+}
+
+.gift-m-accessories {
+  top: 53.5%;
+  left: 43.9%;
+}
+
+.gift-guide-button {
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  background: transparent;
+  padding: 10px;
+  width: 28%;
+  cursor: pointer;
+}
+
+.gift-guide-button:hover {
+  color: #cc0001;
+  border: 1.5px solid #fff;
+  background: #fff;
+}
+
+.gift-px {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* brands */
+.gift-brands img {
+  border-radius: 5px;
+}
+
+.gift-brands {
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* nav */
+.gift-guide-btn-nav {
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #cc0001;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1.5px solid #cc0001;
+  background: transparent;
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.gift-guide-btn-nav:hover {
+  text-decoration: none;
+  color: #f9da9a;
+  border: 1.5px solid #cc0001;
+  background: #cc0001;
+}
+
+/* discount banner */
+.gift-guide-btn-discount {
+  font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  background: transparent;
+  padding: 15px 10px;
+  width: 17%;
+
+  position: absolute;
+  bottom: 18%;
+  left: 6%;
+  cursor: pointer;
+}
+
+.gift-sp:hover .gift-guide-btn-discount {
+  color: #cc0001;
+  border: 1.5px solid #fff;
+  background: #fff;
+}
+
+/* show only in mobile */
+.show-mob {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .gift-guide-2020 .nn-container {
+    max-width: 1220px;
+  }
+
+  .gift-guide-btn-nav {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .gift-guide-btn-discount {
+    font-size: 18px;
+    padding: 10px;
+    width: 17%;
+
+    position: absolute;
+    bottom: 15%;
+    left: 6%;
+  }
+
+  .gift-sp:hover .gift-guide-btn-discount {
+    color: #cc0001;
+    border: 1.5px solid #fff;
+    background: #fff;
+  }
+}
+
+@media (max-width: 992px) {
+  .gift-guide-button {
+    width: 40%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-mob {
+    display: none;
+  }
+
+  .show-mob {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .gift-px {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gift-guide-sec-title img {
+    width: 40%;
+  }
+
+  .gift-guide-sec-title-kids img,
+  .gift-guide-sec-title-brands img {
+    width: 65%;
+  }
+
+  .gift-guide-sec-title-red img {
+    width: 30%;
+  }
+
+  /* button hover */
+  a.gift-btn {
+    background: transparent;
+    color: transparent;
+    width: 25.8%;
+    height: 19%;
+    position: absolute;
+  }
+
+  a.gift-btn:hover .gift-hover-btn {
+    display: none;
+  }
+
+  /* women */
+  .gift-w-watch {
+    top: auto;
+    right: auto;
+    bottom: 19.8%;
+    left: 6.5%;
+  }
+
+  .gift-w-bags {
+    top: auto;
+    right: auto;
+    bottom: 19.8%;
+    left: 40%;
+  }
+
+  .gift-w-cosmetics {
+    top: auto;
+    left: auto;
+    bottom: 19.8%;
+    right: 0.8%;
+  }
+
+  .gift-w-perfumes {
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    left: 6.5%;
+  }
+
+  .gift-w-lingerie {
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    left: 40%;
+  }
+
+  .gift-w-shoes {
+    top: auto;
+    left: auto;
+    bottom: 0%;
+    right: 0.8%;
+  }
+
+  /* men */
+  .gift-m-perfumes {
+    top: auto;
+    right: auto;
+    bottom: 19.8%;
+    left: 6.5%;
+  }
+
+  .gift-m-bags {
+    top: auto;
+    right: auto;
+    bottom: 19.8%;
+    left: 40%;
+  }
+
+  .gift-m-watches {
+    top: auto;
+    left: auto;
+    bottom: 19.8%;
+    right: 0.8%;
+  }
+
+  .gift-m-shoes {
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    left: 6.5%;
+  }
+
+  .gift-m-socks {
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    left: 40%;
+  }
+
+  .gift-m-accessories {
+    top: auto;
+    left: auto;
+    bottom: 0%;
+    right: 0.8%;
+  }
+
+  /*scroller*/
+  .gift-scroller {
+    position: relative;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 15px;
+  }
+
+  .gift-brands-scroller {
+    width: 380%;
+  }
+
+  .gifts-under-scroller {
+    width: 800px;
+    padding: 20px;
+  }
+
+  .gift-guide-2020 ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+
+  .gift-guide-2020 ::-webkit-scrollbar {
+    height: 4px;
+    background-color: #f5f5f5;
+  }
+
+  .gift-guide-2020 ::-webkit-scrollbar-thumb {
+    background-color: #cc0001;
+  }
+}
+
+@media (max-width: 576px) {
+  .gift-guide-button {
+    width: 50%;
+    padding: 8px;
+  }
+
+  .gift-guide-sec-title img {
+    width: 55%;
+  }
+
+  .gift-guide-sec-title-kids img,
+  .gift-guide-sec-title-brands img {
+    width: 90%;
+  }
+
+  .gift-guide-sec-title-red img {
+    width: 45%;
+  }
+
+  .gift-brands-scroller {
+    width: 580%;
+  }
+
+  .red-bg {
+    padding: 40px 15px 30px;
+  }
+
+  .gifts-under-scroller {
+    width: 600px;
+    padding: 20px;
+  }
+
+  .gift-guide-sec-title-red p {
+    color: #ba0001;
+    font-size: 16px;
+    font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+  }
+
+  .gift-guide-sec-title p,
+  .gift-guide-sec-title-kids p,
+  .gift-guide-sec-title-brands p {
+    color: #fff;
+    font-size: 16px;
+    font-family: FuturaPT-Book, Helvetica, Arial, sans-serif;
+  }
+
+  .gift-guide-btn-nav {
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 6px;
+  }
+}
